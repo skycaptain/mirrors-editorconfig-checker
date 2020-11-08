@@ -7,7 +7,7 @@ Mirror of [editorconfig-checker](https://github.com/editorconfig-checker/editorc
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/skycaptain/mirrors-editorconfig-checker
+- repo: https://github.com/skycaptain/pre-commit-editorconfig-checker
   rev: ''  # Use the sha / tag you want to point at
   hooks:
     - id: editorconfig-checker
